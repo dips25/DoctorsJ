@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "77194357905",
+    "project_id": "melodic-eye-320013",
+    "storage_bucket": "melodic-eye-320013.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77194357905:android:3fce410f597946c2696330",
+        "android_client_info": {
+          "package_name": "com.example.doctorsj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77194357905-6uflhat0q533mpj7cj4e1bdmqmvilike.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.doctorsj",
+            "certificate_hash": "2cb364f241b8787c1060d7cf303a2fbb358e9130"
+          }
+        },
+        {
+          "client_id": "77194357905-vbop29uiduq4dkseov74djhjnarf2nco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA9JZ2g5047T1TCEApGC6ldQS5Kc1OL68"
+        },
+        {
+          "current_key": "AIzaSyCmWrhh1SykgjeaZeit0UnAe0PGl2hadFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77194357905-vbop29uiduq4dkseov74djhjnarf2nco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77194357905:android:da1531ae5e2f2ef9696330",
+        "android_client_info": {
+          "package_name": "com.example.doctorsjp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77194357905-jd3uo652g54htde17ki8tdfrcpcvn7vk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.doctorsjp",
+            "certificate_hash": "7461a9dbc9cd0f15774b7440b5fecf50abcd2d5d"
+          }
+        },
+        {
+          "client_id": "77194357905-k0brq118qt7a5aiq1og5obpeglkr24k2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.doctorsjp",
+            "certificate_hash": "2cb364f241b8787c1060d7cf303a2fbb358e9130"
+          }
+        },
+        {
+          "client_id": "77194357905-vbop29uiduq4dkseov74djhjnarf2nco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA9JZ2g5047T1TCEApGC6ldQS5Kc1OL68"
+        },
+        {
+          "current_key": "AIzaSyCmWrhh1SykgjeaZeit0UnAe0PGl2hadFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77194357905-vbop29uiduq4dkseov74djhjnarf2nco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

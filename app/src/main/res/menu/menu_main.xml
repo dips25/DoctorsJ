@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+          android:title="@string/home"
+    android:icon="@drawable/ic_baseline_account_balance_24"
+    android:orderInCategory="100"/>
+
+    <item android:id="@+id/request"
+        android:title="@string/requests"
+        android:icon="@drawable/ic_request"
+        android:orderInCategory="101"/>
+
+    <item android:id="@+id/pending"
+        android:title="@string/pending"
+        android:icon="@drawable/ic_pending"
+        android:orderInCategory="102"/>
+
+    <item android:id="@+id/history"
+        android:title="@string/history"
+        android:icon="@drawable/ic_history"
+        android:orderInCategory="103"/>
+
+    <item android:id="@+id/profile"
+          android:title="@string/profile"
+          android:icon="@drawable/ic_baseline_accessibility_24"
+          android:orderInCategory="104"/>
+
+</menu>

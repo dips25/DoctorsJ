@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PhoneLoginActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/number_holder"
+        android:padding="10dp">
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:hint="@string/code"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_background"
+            android:textColor="@color/black"
+            android:id="@+id/ccp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_number"
+            android:gravity="center"
+            android:background="@drawable/edit_text_background"
+            android:layout_toEndOf="@id/ccp"
+            android:layout_alignTop="@id/ccp"
+            android:layout_alignBottom="@id/ccp"
+            android:textColor="@color/black"
+            android:id="@+id/phone_number_edit_text"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend"
+        android:layout_below="@id/number_holder"
+        android:layout_alignEnd="@id/number_holder"
+        android:layout_marginEnd="12dp"
+        android:textColor="@color/black"
+        android:id="@+id/resend"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/we_will_send_an_otp_to_your_entered_mobile_number_sms_charges_may_apply"
+        android:layout_above="@id/number_holder"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:padding="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verify"
+        android:layout_below="@id/resend"
+        android:layout_centerHorizontal="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:id="@+id/phone_number_verify"/>
+
+</RelativeLayout>

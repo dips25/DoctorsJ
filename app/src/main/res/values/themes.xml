@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DoctorsJ" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_200</item>
+        <item name="colorPrimaryVariant">@color/green_light</item>
+        <item name="colorPrimaryDark">@color/green_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green_100</item>
+        <item name="colorSecondaryVariant">@color/green_100_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryDark</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.NoActionBar" parent="Theme.DoctorsJ">
+        <item name="windowActionBar" >false</item>
+       <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="Theme.Dialog" parent="Theme.AppCompat.DayNight.DialogWhenLarge">
+
+    </style>
+
+    <color name="green_200">#66bb6a</color>
+    <color name="green_dark">#338a3e</color>
+    <color name="green_100">#c8e6c9</color>
+    <color name="green_100_dark">#97b498</color>
+    <color name="green_light">#98ee99</color>
+</resources>

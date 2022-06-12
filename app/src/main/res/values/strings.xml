@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">DoctorsJ</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="change_location">Change Location</string>
+    <string name="profile">Profile</string>
+    <string name="title_activity_change_location">ChangeLocationActivity</string>
+    <string name="getting_location">Getting Location...</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="Signup">Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="home">Home</string>
+    <string name="requests">Requests</string>
+    <string name="save">Save</string>
+    <string name="address">Address</string>
+    <string name="contact">Contact</string>
+    <string name="name">Name</string>
+    <string name="upload_dialogue">Upload Complete</string>
+    <string name="upload_failed_dialogue">Can\'t Upload Picture.</string>
+    <string name="select_date_dialogue">Select Date</string>
+    <string name="set_date">Set Date</string>
+    <string name="choose_your_time_dialogue">Choose Your Time</string>
+    <string name="select_time">Select Time</string>
+    <string name="pending">Pending</string>
+    <string name="show">Show</string>
+    <string name="complete">Complete</string>
+    <string name="payment_from">Payment Received From</string>
+    <string name="history">History</string>
+    <string name="check_up_completed">Checkup Completed</string>
+    <string name="edit">Edit</string>
+    <string name="logout">Log Out</string>
+    <string name="enter_name">Enter name</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="cant_upload">Can\'t Upload</string>
+    <string name="forgot_password">Forgot Pasword?</string>
+    <string name="verification_link_dialogue">Verification Link Sent</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_login">Phone</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="verify">Verify</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="we_will_send_an_otp_to_your_entered_mobile_number_sms_charges_may_apply">We will send an OTP to your entered mobile number. SMS charges may apply.</string>
+    <string name="code">+91</string>
+
+
+</resources>

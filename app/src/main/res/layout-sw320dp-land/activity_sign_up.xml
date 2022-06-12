@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignUpActivity"
+    android:background="@color/ash_variant">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="70dp"
+        android:hint="@string/email"
+        android:background="@drawable/change_location_textview_background"
+        android:id="@+id/create_user_email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/create_user_email"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password"
+        android:layout_centerInParent="true"
+        android:background="@drawable/change_location_textview_background"
+        android:inputType="textPassword"
+        android:id="@+id/create_user_password"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_below="@id/create_user_password"
+        android:layout_marginTop="10dp"
+        android:hint="@string/confirm_password"
+        android:layout_centerInParent="true"
+        android:background="@drawable/change_location_textview_background"
+        android:inputType="textPassword"
+        android:id="@+id/create_user_confirm_password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_below="@id/create_user_confirm_password"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:text="@string/Signup"
+        android:id="@+id/sign_up"/>
+
+</RelativeLayout>
